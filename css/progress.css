@@ -70,7 +70,7 @@ input[type='range']::-webkit-slider-runnable-track {
 }
 
 input[type='range']:focus::-webkit-slider-runnable-track {
-	background: #e62117; 
+	background: #fff; 
 }
 
 input[type='range']::-moz-range-track {
