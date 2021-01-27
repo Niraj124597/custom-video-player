@@ -15,7 +15,7 @@
   <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ZzYPBkx9w5w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
   <!-- https://www.videvo.net/ -->
   <!-- <video controls src="videos/hay-baling.mp4" poster="img/poster.png" width="640" height="360" id="video" class="screen"></video> -->
-  <video src="videos/hay-baling.mp4" poster="img/poster.png" id="video" class="screen"></video>
+  <video src="video/hay-baling.mp4" poster="img/poster.png" id="video" class="screen"></video>
   <div class="controls">
     <button id="play" class="btn">
       <i class="fa fa-play"></i>
@@ -25,6 +25,13 @@
     </button>
     <input type="range" id="progress" class="progress" min="0" max="100" step="0.1" value="0">
     <span id="timestamp" class="timestamp">00:00</span>
+    <button id="volume" class="btn btn-volume-up">
+      <i class="fa fa-volume-up"></i>
+    </button>
+    <input type="range" id="volume-progress" class="progress" min="0" max="1" step="0.001" value="1">
+    <button id="fullscreen" class="btn">
+      <i class="fa fa-arrows-alt"></i>
+    </button>
   </div>
 
   <script src="script.js"></script>
