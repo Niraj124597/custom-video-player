@@ -29,8 +29,6 @@ h1:hover {
 
 .screen {
   width: 50%;
-  /* border: 2px solid #001eff;
-  border-bottom: 0; */
   border: solid #001eff;
   border-width: 2px 2px 0 2px;
   background-color: #000 !important;
@@ -78,7 +76,6 @@ h1:hover {
   margin-right: 5px;
 }
 
-/* Screens 800px or smaller will have width of screen and controls set to 90% */
 @media(max-width: 800px) {
   .screen, 
   .controls {
